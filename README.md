@@ -11,6 +11,7 @@ CSS and Markup
 
 Example
 ----
+html
 ```html
 <a class="back" href="#">&lt;</a>
 <div class="wrapper"> <!-- This is wrapper -->
@@ -23,6 +24,7 @@ Example
 </div>
 <a class="forward" href="#">&gt;</a>
 ```
+css
 ```css
 .wrapper{ overflow: hidden; }
 .wrapper ul{ position: relative; }
