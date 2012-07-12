@@ -1,4 +1,3 @@
-jquery-slider
-=============
+jquery-carousel
 
-Plugin for jquery. Fully customizable carousel.
+Plugin for jQuery. Fully customizable carousel.
