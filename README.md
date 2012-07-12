@@ -3,6 +3,7 @@ jquery-carousel
 Plugin for jQuery. Fully customizable carousel.
 
 ## CSS and Markup
+
 * Elements container should be placed in wrapper
 * Wrapper should have _overflow: hidden;_ property
 * Elements container should be relative positioned (_position: relative;_)
