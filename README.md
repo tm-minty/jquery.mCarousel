@@ -5,9 +5,9 @@ Plugin for jQuery. Fully customizable carousel.
 ## CSS and Markup
 
 * Elements container should be placed in wrapper
-* Wrapper should have _overflow: hidden;_ property
-* Elements container should be relative positioned (_position: relative;_)
-* Elements: _float: left;_
+* Wrapper should have ```overflow: hidden;``` property
+* Elements container should be relative positioned (```position: relative;```)
+* Elements: ```float: left;```
 
 ### Example
 **html**
