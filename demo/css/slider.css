@@ -1,0 +1,61 @@
+.slider{
+    margin: 0 auto;
+    width: 675px;
+    height: 97px;
+}
+
+.slider-back, .slider-forward{
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 97px;
+    width: 20px;
+}
+.slider-back{
+    float: left;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAARBAMAAAAWDSDWAAAAA3NCSVQICAjb4U/gAAAAJFBMVEUzMzO8vLyPj4+JiYlfX1+RkZGkpKSLi4upqamNjY2Tk5P///9EylvdAAAADHRSTlP//////////////wAS387OAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADA3LzExLzEyqbPHVgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAABMSURBVAiZY9gNBBEMQGITO4hU0AaSm5h2M4CYQHI7024gWaANJHcCmbsZBLxB5GZWELnbIBpEgjhA9UAOkARyQOYYRIPIzUwgcncZAJkmMHHNQHDeAAAAAElFTkSuQmCC');
+}
+.slider-forward{
+    float: right;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAARBAMAAAAWDSDWAAAAA3NCSVQICAjb4U/gAAAAJFBMVEUzMzO8vLyPj4+JiYlfX1+kpKSNjY2RkZGpqamLi4uTk5P///8gOOJlAAAADHRSTlP//////////////wAS387OAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADA3LzExLzEyqbPHVgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAABISURBVAiZFcyxEYAwDENRBQrWoGcET0KXEdJnABbiQqHl0HfxTlJhPc6pT1wHmiJTZPcL14Yp+DYcFb+dfVRMjIkW0ToLb/7/D9Ex1eaHNDMAAAAASUVORK5CYII=');
+}
+
+.slider-wrapper{
+    height: 95px;
+    margin: 0 20px;
+    overflow: hidden;
+    width: 635px;
+}
+
+.slider-content{
+    float: left;
+    height: 95px;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 9000px;
+}
+.slider-content li{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    -ms-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    -o-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    float: left;
+    height: 70px;
+    margin: 0 16px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    width: 95px;
+}
+.slider-ie8 .slider-content li{
+    border-top: none;
+    border-right: 1px solid #DDD;
+    border-bottom: 2px solid #CCC;
+    border-left: 1px solid #DDD;
+    margin: 0 15px;
+}

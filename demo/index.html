@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+    <link rel="stylesheet" href="css/slider.css" />
+    <script type="text/javascript" src="../lib/jquery.1.7.2.min.js"></script>
+    <script type="text/javascript" src="../src/jquery.carousel.js"></script>
+</head>
+<body>
+<!--[if IE 8 ]> <div class="slider slider-ie slider-ie8"> <![endif]-->
+<!--[if IE 9 ]> <div class="slider slider-ie slider-ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <div class="slider"> <!--<![endif]-->
+        <div class="slider-back"></div>
+        <div class="slider-forward"></div>
+        <div class="slider-wrapper">
+            <ul class="slider-content">
+                <li><img src="images/alfabank.png" alt="" width="80" height="50" /></li>
+                <li><img src="images/bee.png" alt="" width="81" height="52" /></li>
+                <li><img src="images/mts.png" alt="" width="81" height="52" /></li>
+                <li><img src="images/unistream.png" alt="" width="81" height="52" /></li>
+                <li><img src="images/yandexmoney.png" alt="" width="80" height="33" /></li>
+            </ul>
+        </div>
+    </div>
+	
+    <script type="text/javascript">
+        (function($){
+            $(function(){
+                $('.slider').carousel({
+                        backButton: '.slider-back',
+                        forwardButton: '.slider-forward',
+                        elementsContainer: '.slider-content',
+                        slideCount: 3
+                    });
+            })
+        })(jQuery);
+    </script>
+</body>
+</html>
