@@ -2,16 +2,14 @@ jquery-carousel
 ======================
 Plugin for jQuery. Fully customizable carousel.
 
-CSS and Markup
-====
+## CSS and Markup
 * Elements container should be placed in wrapper
 * Wrapper should have _overflow: hidden;_ property
 * Elements container should be relative positioned (_position: relative;_)
 * Elements: _float: left;_
 
-Example
-----
-html
+### Example
+**html**
 ```html
 <a class="back" href="#">&lt;</a>
 <div class="wrapper"> <!-- This is wrapper -->
@@ -24,15 +22,14 @@ html
 </div>
 <a class="forward" href="#">&gt;</a>
 ```
-css
+**css**
 ```css
 .wrapper{ overflow: hidden; }
 .wrapper ul{ position: relative; }
 .wrapper li{ width: 100px; float: left; }
 ```
 
-Usage
-====
+## Usage
 ```javascript
 $('.wrapper').carousel({
   backButton: '.back', // selector or object // back button
@@ -43,3 +40,4 @@ $('.wrapper').carousel({
   duration: 500 // ms, animation speed
 });
 ```
+
