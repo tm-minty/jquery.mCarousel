@@ -70,8 +70,8 @@
             slideBack: function (evt, c) {
                 var elementsContainer = $(options.elementsContainer),
                     elements = $(options.elements, elementsContainer),
-                    movements = elements.slice(elements.length - options.slideCount, elements.length),
-                    left = options.left + methods.getOuterWidth(c || movements);
+                    movements = elements.slice(elements.length - (c || options.slideCount), elements.length),
+                    left = options.left + methods.getOuterWidth(movements);
 
                 if (!options.loop) {
                     if (left > 0) {
@@ -102,10 +102,11 @@
             },
             // Slide forward method
             slideForward: function (evt, c) {
+                console.log(evt, c);
                 var elementsContainer = $(options.elementsContainer),
                     elements = $(options.elements, elementsContainer),
-                    movements = elements.slice(0, options.slideCount),
-                    left = options.left - methods.getOuterWidth(c || movements);
+                    movements = elements.slice(0, c || options.slideCount),
+                    left = options.left - methods.getOuterWidth(movements);
 
                 if (!options.loop) {
                     var elementsWidth = methods.getOuterWidth(elements) - elementsContainer.parent().width();
