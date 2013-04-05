@@ -102,7 +102,6 @@
             },
             // Slide forward method
             slideForward: function (evt, c) {
-                console.log(evt, c);
                 var elementsContainer = $(options.elementsContainer),
                     elements = $(options.elements, elementsContainer),
                     movements = elements.slice(0, c || options.slideCount),
