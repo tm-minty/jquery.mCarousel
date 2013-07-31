@@ -139,6 +139,7 @@
                      * @param value {*} New option value
                      * @returns {*}
                      */
+                    // TODO: Set options by object
                     option: function (name, value) {
                         if (value) {
                             options[name] = value;
