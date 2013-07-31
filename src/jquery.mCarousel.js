@@ -6,9 +6,10 @@
  */
 
 /*global jQuery*/
-/*jslint browser: true, devel: true, vars: true*/
+/*jslint browser: true, devel: true, vars: true, todo: true*/
 (function ($) {
     "use strict";
+    // TODO: Access to methods from $(element).mCarousel("method", "methodName", [arguments]);
     $.fn.mCarousel = function (options) {
         var Plugin = function (options) {
                 var self = this,
@@ -128,6 +129,24 @@
                         elementsOuterWidth = self.methods.getOuterWidth(elements);
                         left = elementsOuterWidth * -1;
                         elementsContainer.css({'left': left});
+                    },
+                    /**
+                     * Options getter/setter
+                     * If value is defined, set new option value and return it
+                     * Anyway method returns value of option
+                     *
+                     * @param name {String} Option name
+                     * @param value {*} New option value
+                     * @returns {*}
+                     */
+                    option: function (name, value) {
+                        if (value) {
+                            options[name] = value;
+                        }
+                        if (name === undefined) {
+                            return "";
+                        }
+                        return options[name];
                     }
                 };
 
