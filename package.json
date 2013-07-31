@@ -1,0 +1,14 @@
+{
+  "name": "jquery.mCarousel",
+  "author": {
+      "name": "Timur R Mingaliev",
+      "email": "timur@mingaliev.com"
+  },
+  "version": "1.1.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-jslint": "~1.0.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}
