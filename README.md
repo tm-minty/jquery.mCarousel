@@ -1,4 +1,4 @@
-jquery-carousel
+jquery.mCarousel
 ======================
 Plugin for jQuery. Fully customizable carousel.
 
@@ -32,7 +32,7 @@ Plugin for jQuery. Fully customizable carousel.
 
 ## Usage
 ```javascript
-$('.wrapper').carousel({
+$('.wrapper').mCarousel({
   backButton: '.back', // selector or object // back button
   forwardButton: '.forward', // selector or object // forward button
   elementsContainer: '.wrapper>ul', // selector or object // elements container
