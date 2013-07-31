@@ -128,7 +128,6 @@
                         elementsOuterWidth = self.methods.getOuterWidth(elements);
                         left = elementsOuterWidth * -1;
                         elementsContainer.css({'left': left});
-                        console.log("refreshPosition", left);
                     }
                 };
 
